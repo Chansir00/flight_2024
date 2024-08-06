@@ -1,0 +1,84 @@
+running egg_info
+creating ../../build/opencv_tools/opencv_tools.egg-info
+writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/Desktop/flight_ws/build/opencv_tools/build
+creating /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib
+creating /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/test.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/to_img_mcu.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/basic_image_publisher.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/rc_imu.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/right_QR_scan.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/opencv_rosnode_test.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/circle_ctr.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/down_image_publisher.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/down_cam_subscribe.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/__init__.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/test_shape.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/to_mcu.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/basic_image_subscriber.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/sticker_ctr.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/left_QR_scan.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools
+running install
+running install_lib
+creating /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/test.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/to_img_mcu.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/rc_imu.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/right_QR_scan.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/opencv_rosnode_test.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/circle_ctr.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/down_image_publisher.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/down_cam_subscribe.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/test_shape.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/to_mcu.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/sticker_ctr.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/left_QR_scan.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/test.py to test.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/to_img_mcu.py to to_img_mcu.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/rc_imu.py to rc_imu.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/right_QR_scan.py to right_QR_scan.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/opencv_rosnode_test.py to opencv_rosnode_test.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/circle_ctr.py to circle_ctr.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/down_image_publisher.py to down_image_publisher.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/down_cam_subscribe.py to down_cam_subscribe.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/test_shape.py to test_shape.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/to_mcu.py to to_mcu.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/sticker_ctr.py to sticker_ctr.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/left_QR_scan.py to left_QR_scan.cpython-38.pyc
+running install_data
+creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index
+creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index/resource_index
+creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index/resource_index/packages
+copying resource/opencv_tools -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools
+creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools/launch
+copying launch/down_cam.launch.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools/launch
+copying launch/caminfo.launch.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools/launch
+running install_egg_info
+Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools-0.0.0-py3.8.egg-info
+running install_scripts
+Installing circle_ctr script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing down_image_publisher script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing down_image_subscriber script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing img_publisher script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing img_subscriber script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing left_qr_pub script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing right_qr_pub script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+Installing to_img_mcu script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools
+writing list of installed files to '/home/jetson/Desktop/flight_ws/build/opencv_tools/install.log'

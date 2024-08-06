@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages",
+        "/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages",
+        "/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages",
+        "/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages",
+        "/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages"
+    ]
+}

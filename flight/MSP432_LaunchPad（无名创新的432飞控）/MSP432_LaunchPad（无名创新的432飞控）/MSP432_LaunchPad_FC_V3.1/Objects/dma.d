@@ -1,0 +1,16 @@
+.\objects\dma.o: source\ti\devices\msp432p4xx\driverlib\dma.c
+.\objects\dma.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/driverlib/debug.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/driverlib/interrupt.h
+.\objects\dma.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/inc/msp.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/inc/msp432p401r.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/inc/msp_compatibility.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/inc/msp432p401r_classic.h
+.\objects\dma.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\dma.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\dma.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\dma.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\dma.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/inc/system_msp432p401r.h
+.\objects\dma.o: .\source\ti/devices/msp432p4xx/driverlib/dma.h

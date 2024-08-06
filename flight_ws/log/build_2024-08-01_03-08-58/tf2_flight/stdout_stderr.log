@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/tf2_flight/tf2_flight.egg-info
+writing ../../build/tf2_flight/tf2_flight.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf2_flight/tf2_flight.egg-info/dependency_links.txt
+writing entry points to ../../build/tf2_flight/tf2_flight.egg-info/entry_points.txt
+writing requirements to ../../build/tf2_flight/tf2_flight.egg-info/requires.txt
+writing top-level names to ../../build/tf2_flight/tf2_flight.egg-info/top_level.txt
+writing manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'
+reading manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build
+creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib
+creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+copying tf2_flight/test1.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+copying tf2_flight/world_frame_publisher.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+copying tf2_flight/init_pose.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+copying tf2_flight/__init__.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+copying tf2_flight/offset_calculator.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+copying tf2_flight/tf_listener.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+running install
+running install_lib
+creating /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/test1.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/world_frame_publisher.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/init_pose.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/__init__.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/offset_calculator.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/tf_listener.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/test1.py to test1.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/world_frame_publisher.py to world_frame_publisher.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/init_pose.py to init_pose.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/offset_calculator.py to offset_calculator.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/tf_listener.py to tf_listener.cpython-38.pyc
+running install_data
+creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index
+creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index
+creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index/packages
+copying resource/tf2_flight -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight
+creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight/launch
+copying launch/tf2_flight.launch.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight/launch
+running install_egg_info
+Copying ../../build/tf2_flight/tf2_flight.egg-info to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight-0.0.0-py3.8.egg-info
+running install_scripts
+Installing main3 script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+Installing offset_calculator script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+Installing pose_pub script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+Installing tf_listener script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+Installing world_frame_publisher script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+writing list of installed files to '/home/jetson/Desktop/flight_ws/build/tf2_flight/install.log'

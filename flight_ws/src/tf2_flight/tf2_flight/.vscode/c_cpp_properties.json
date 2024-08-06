@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jetson/ros2_ws/install/orbbec_camera/include/**",
+        "/home/jetson/ros2_ws/install/orbbec_camera_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/jetson/Desktop/flight_ws/src/anolink/include/**",
+        "/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,16 @@
+.\objects\timer32.o: source\ti\devices\msp432p4xx\driverlib\timer32.c
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/driverlib/timer32.h
+.\objects\timer32.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer32.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/inc/msp.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/inc/msp432p401r.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/inc/msp_compatibility.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/inc/msp432p401r_classic.h
+.\objects\timer32.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\timer32.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\timer32.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\timer32.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\timer32.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/inc/system_msp432p401r.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/driverlib/interrupt.h
+.\objects\timer32.o: .\source\ti/devices/msp432p4xx/driverlib/debug.h

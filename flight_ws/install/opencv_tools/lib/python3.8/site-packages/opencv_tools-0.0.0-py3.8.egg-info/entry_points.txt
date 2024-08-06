@@ -1,0 +1,9 @@
+[console_scripts]
+circle_ctr = opencv_tools.circle_ctr:main
+down_image_publisher = opencv_tools.down_image_publisher:main
+down_image_subscriber = opencv_tools.down_cam_subscribe:main
+img_publisher = opencv_tools.basic_image_publisher:main
+img_subscriber = opencv_tools.basic_image_subscriber:main
+left_qr_pub = opencv_tools.left_QR_scan:main
+right_qr_pub = opencv_tools.right_QR_scan:main
+to_img_mcu = opencv_tools.to_img_mcu:main

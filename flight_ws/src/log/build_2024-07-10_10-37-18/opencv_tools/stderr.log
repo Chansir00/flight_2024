@@ -1,0 +1,5 @@
+  File "/home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py", line 21
+    if ret,frame == True:
+          ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,6 @@
+[console_scripts]
+main3 = tf2_flight.test1:main
+offset_calculator = tf2_flight.offset_calculator:main
+pose_pub = tf2_flight.init_pose:main
+tf_listener = tf2_flight.tf_listener:main
+world_frame_publisher = tf2_flight.world_frame_publisher:main

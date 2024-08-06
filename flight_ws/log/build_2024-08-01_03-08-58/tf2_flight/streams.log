@@ -1,0 +1,55 @@
+[3.437s] Invoking command in '/home/jetson/Desktop/flight_ws/src/tf2_flight': PYTHONPATH=/home/jetson/Desktop/flight_ws/build/tf2_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_flight build --build-base /home/jetson/Desktop/flight_ws/build/tf2_flight/build install --record /home/jetson/Desktop/flight_ws/build/tf2_flight/install.log --single-version-externally-managed install_data
+[4.244s] running egg_info
+[4.245s] creating ../../build/tf2_flight/tf2_flight.egg-info
+[4.305s] writing ../../build/tf2_flight/tf2_flight.egg-info/PKG-INFO
+[4.306s] writing dependency_links to ../../build/tf2_flight/tf2_flight.egg-info/dependency_links.txt
+[4.307s] writing entry points to ../../build/tf2_flight/tf2_flight.egg-info/entry_points.txt
+[4.307s] writing requirements to ../../build/tf2_flight/tf2_flight.egg-info/requires.txt
+[4.308s] writing top-level names to ../../build/tf2_flight/tf2_flight.egg-info/top_level.txt
+[4.568s] writing manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'
+[4.700s] reading manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'
+[4.702s] writing manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'
+[4.703s] running build
+[4.703s] running build_py
+[4.703s] creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build
+[4.704s] creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib
+[4.704s] creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.704s] copying tf2_flight/test1.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.705s] copying tf2_flight/world_frame_publisher.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.705s] copying tf2_flight/init_pose.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.706s] copying tf2_flight/__init__.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.706s] copying tf2_flight/offset_calculator.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.708s] copying tf2_flight/tf_listener.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight
+[4.708s] running install
+[4.718s] running install_lib
+[4.782s] creating /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.782s] copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/test1.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.783s] copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/world_frame_publisher.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.783s] copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/init_pose.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.783s] copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/__init__.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.784s] copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/offset_calculator.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.784s] copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/tf_listener.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight
+[4.785s] byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/test1.py to test1.cpython-38.pyc
+[4.788s] byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/world_frame_publisher.py to world_frame_publisher.cpython-38.pyc
+[4.789s] byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/init_pose.py to init_pose.cpython-38.pyc
+[4.794s] byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/__init__.py to __init__.cpython-38.pyc
+[4.795s] byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/offset_calculator.py to offset_calculator.cpython-38.pyc
+[4.795s] byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/tf_listener.py to tf_listener.cpython-38.pyc
+[4.795s] running install_data
+[4.796s] creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index
+[4.796s] creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index
+[4.797s] creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index/packages
+[4.797s] copying resource/tf2_flight -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index/packages
+[4.797s] copying package.xml -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight
+[4.798s] creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight/launch
+[4.798s] copying launch/tf2_flight.launch.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight/launch
+[4.798s] running install_egg_info
+[4.864s] Copying ../../build/tf2_flight/tf2_flight.egg-info to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight-0.0.0-py3.8.egg-info
+[4.869s] running install_scripts
+[5.193s] Installing main3 script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+[5.193s] Installing offset_calculator script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+[5.194s] Installing pose_pub script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+[5.194s] Installing tf_listener script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+[5.194s] Installing world_frame_publisher script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight
+[5.194s] writing list of installed files to '/home/jetson/Desktop/flight_ws/build/tf2_flight/install.log'
+[5.450s] Invoked command in '/home/jetson/Desktop/flight_ws/src/tf2_flight' returned '0': PYTHONPATH=/home/jetson/Desktop/flight_ws/build/tf2_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_flight build --build-base /home/jetson/Desktop/flight_ws/build/tf2_flight/build install --record /home/jetson/Desktop/flight_ws/build/tf2_flight/install.log --single-version-externally-managed install_data

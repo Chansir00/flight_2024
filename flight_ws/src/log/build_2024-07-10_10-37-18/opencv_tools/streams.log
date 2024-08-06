@@ -1,0 +1,36 @@
+[0.594s] Invoking command in '/home/chan/Documents/opencv_ws/src/opencv_tools': PYTHONPATH=/home/chan/Documents/opencv_ws/src/build/opencv_tools/prefix_override:/home/chan/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/chan/Documents/opencv_ws/src/build/opencv_tools/build install --record /home/chan/Documents/opencv_ws/src/build/opencv_tools/install.log --single-version-externally-managed install_data
+[0.782s] running egg_info
+[0.793s] writing ../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[0.794s] writing dependency_links to ../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[0.794s] writing entry points to ../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[0.794s] writing requirements to ../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[0.794s] writing top-level names to ../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[0.900s] reading manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[0.901s] writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[0.901s] running build
+[0.901s] running build_py
+[0.901s] copying opencv_tools/basic_image_subscriber.py -> /home/chan/Documents/opencv_ws/src/build/opencv_tools/build/lib/opencv_tools
+[0.901s] copying opencv_tools/basic_image_publisher.py -> /home/chan/Documents/opencv_ws/src/build/opencv_tools/build/lib/opencv_tools
+[0.901s] copying opencv_tools/__init__.py -> /home/chan/Documents/opencv_ws/src/build/opencv_tools/build/lib/opencv_tools
+[0.902s] running install
+[0.905s] running install_lib
+[0.917s] copying /home/chan/Documents/opencv_ws/src/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[0.917s] copying /home/chan/Documents/opencv_ws/src/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[0.918s] byte-compiling /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc
+[0.918s] byte-compiling /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-310.pyc
+[0.918s]   File "/home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py", line 21
+[0.918s]     if ret,frame == True:
+[0.919s]           ^
+[0.919s] SyntaxError: invalid syntax
+[0.919s] 
+[0.919s] running install_data
+[0.919s] copying resource/opencv_tools -> /home/chan/Documents/opencv_ws/src/install/opencv_tools/share/ament_index/resource_index/packages
+[0.919s] copying package.xml -> /home/chan/Documents/opencv_ws/src/install/opencv_tools/share/opencv_tools
+[0.919s] running install_egg_info
+[0.931s] removing '/home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[0.932s] Copying ../build/opencv_tools/opencv_tools.egg-info to /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.962s] Installing img_publisher script to /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/opencv_tools
+[0.963s] Installing img_subscriber script to /home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/opencv_tools
+[0.963s] writing list of installed files to '/home/chan/Documents/opencv_ws/src/build/opencv_tools/install.log'
+[0.985s] Invoked command in '/home/chan/Documents/opencv_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/chan/Documents/opencv_ws/src/build/opencv_tools/prefix_override:/home/chan/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/chan/Documents/opencv_ws/src/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/chan/Documents/opencv_ws/src/build/opencv_tools/build install --record /home/chan/Documents/opencv_ws/src/build/opencv_tools/install.log --single-version-externally-managed install_data

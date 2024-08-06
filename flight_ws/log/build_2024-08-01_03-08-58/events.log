@@ -1,0 +1,390 @@
+[0.000000] (-) TimerEvent: {}
+[0.001557] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.001905] (opencv_tools) JobQueued: {'identifier': 'opencv_tools', 'dependencies': OrderedDict()}
+[0.002307] (tf2_flight) JobQueued: {'identifier': 'tf2_flight', 'dependencies': OrderedDict()}
+[0.002426] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.024231] (opencv_tools) JobStarted: {'identifier': 'opencv_tools'}
+[0.045026] (tf2_flight) JobStarted: {'identifier': 'tf2_flight'}
+[0.067905] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[0.068579] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2'], 'cwd': '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1965'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/orbbec_camera/lib:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install:/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1423823037782'), ('DESKTOP_AUTOSTART_ID', '10a42c01cfeed0c636172245218030784000000020920017'), ('JOURNAL_STREAM', '7:52741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/usr/local/nodejs/bin'), ('SESSION_MANAGER', 'local/unbutu:@/tmp/.ICE-unix/2092,unix/unbutu:/tmp/.ICE-unix/2092'), ('INVOCATION_ID', '8248bfbeb3b04a6f97f72a94f4972ec1'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08384ba7_e1a8_4199_a2de_d377bb55cabe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages'), ('BODYPOSE3D_HOME', '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/opt/ros/foxy:/home/jetson/yahboomcar_ws/devel'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[0.099148] (-) TimerEvent: {}
+[0.199930] (-) TimerEvent: {}
+[0.300581] (-) TimerEvent: {}
+[0.401238] (-) TimerEvent: {}
+[0.501967] (-) TimerEvent: {}
+[0.603068] (-) TimerEvent: {}
+[0.703961] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.706648] (-) TimerEvent: {}
+[0.710241] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.711227] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.714518] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.716592] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.806792] (-) TimerEvent: {}
+[0.890406] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.907833] (-) TimerEvent: {}
+[0.912580] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.915455] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.923235] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.007469] (-) TimerEvent: {}
+[1.109952] (-) TimerEvent: {}
+[1.134301] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.136229] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.210112] (-) TimerEvent: {}
+[1.310853] (-) TimerEvent: {}
+[1.339205] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.341170] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.341392] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.346324] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.411280] (-) TimerEvent: {}
+[1.438456] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.439158] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.511329] (-) TimerEvent: {}
+[1.611999] (-) TimerEvent: {}
+[1.712663] (-) TimerEvent: {}
+[1.813378] (-) TimerEvent: {}
+[1.914451] (-) TimerEvent: {}
+[2.015309] (-) TimerEvent: {}
+[2.042933] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.115463] (-) TimerEvent: {}
+[2.152325] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.168634] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.215602] (-) TimerEvent: {}
+[2.316233] (-) TimerEvent: {}
+[2.417000] (-) TimerEvent: {}
+[2.457809] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.517159] (-) TimerEvent: {}
+[2.533278] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.617319] (-) TimerEvent: {}
+[2.717988] (-) TimerEvent: {}
+[2.724723] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.818122] (-) TimerEvent: {}
+[2.840430] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.844095] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.846979] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.918333] (-) TimerEvent: {}
+[3.019240] (-) TimerEvent: {}
+[3.047485] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.049245] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.119401] (-) TimerEvent: {}
+[3.220087] (-) TimerEvent: {}
+[3.229858] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.230455] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.320292] (-) TimerEvent: {}
+[3.404163] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.404748] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.421200] (-) TimerEvent: {}
+[3.437690] (opencv_tools) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/opencv_tools', 'build', '--build-base', '/home/jetson/Desktop/flight_ws/build/opencv_tools/build', 'install', '--record', '/home/jetson/Desktop/flight_ws/build/opencv_tools/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/Desktop/flight_ws/src/opencv_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1965', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/orbbec_camera/lib:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.3.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1293', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/Desktop/flight_ws/install:/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (4GB ram)', 'JETSON_SERIAL_NUMBER': '1423823037782', 'DESKTOP_AUTOSTART_ID': '10a42c01cfeed0c636172245218030784000000020920017', 'JOURNAL_STREAM': '7:52741', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/usr/local/nodejs/bin', 'SESSION_MANAGER': 'local/unbutu:@/tmp/.ICE-unix/2092,unix/unbutu:/tmp/.ICE-unix/2092', 'INVOCATION_ID': '8248bfbeb3b04a6f97f72a94f4972ec1', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/08384ba7_e1a8_4199_a2de_d377bb55cabe', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'fcitx', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/jetson/Desktop/flight_ws/build/opencv_tools', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/Desktop/flight_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages', 'BODYPOSE3D_HOME': '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/home/jetson/yahboomcar_ws/devel', 'JETSON_P_NUMBER': 'p3767-0004'}, 'shell': False}
+[3.481076] (tf2_flight) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tf2_flight', 'build', '--build-base', '/home/jetson/Desktop/flight_ws/build/tf2_flight/build', 'install', '--record', '/home/jetson/Desktop/flight_ws/build/tf2_flight/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/Desktop/flight_ws/src/tf2_flight', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1965', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/orbbec_camera/lib:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.3.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1293', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/Desktop/flight_ws/install:/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (4GB ram)', 'JETSON_SERIAL_NUMBER': '1423823037782', 'DESKTOP_AUTOSTART_ID': '10a42c01cfeed0c636172245218030784000000020920017', 'JOURNAL_STREAM': '7:52741', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/usr/local/nodejs/bin', 'SESSION_MANAGER': 'local/unbutu:@/tmp/.ICE-unix/2092,unix/unbutu:/tmp/.ICE-unix/2092', 'INVOCATION_ID': '8248bfbeb3b04a6f97f72a94f4972ec1', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/08384ba7_e1a8_4199_a2de_d377bb55cabe', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'fcitx', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/jetson/Desktop/flight_ws/build/tf2_flight', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/Desktop/flight_ws/build/tf2_flight/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages', 'BODYPOSE3D_HOME': '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/home/jetson/yahboomcar_ws/devel', 'JETSON_P_NUMBER': 'p3767-0004'}, 'shell': False}
+[3.521291] (-) TimerEvent: {}
+[3.604644] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.607006] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.621354] (-) TimerEvent: {}
+[3.722000] (-) TimerEvent: {}
+[3.822767] (-) TimerEvent: {}
+[3.924503] (-) TimerEvent: {}
+[3.947846] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.024646] (-) TimerEvent: {}
+[4.125443] (-) TimerEvent: {}
+[4.168243] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.225564] (-) TimerEvent: {}
+[4.227540] (opencv_tools) StdoutLine: {'line': b'running egg_info\n'}
+[4.230215] (opencv_tools) StdoutLine: {'line': b'creating ../../build/opencv_tools/opencv_tools.egg-info\n'}
+[4.286046] (opencv_tools) StdoutLine: {'line': b'writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO\n'}
+[4.288527] (opencv_tools) StdoutLine: {'line': b'writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt\n'}
+[4.289082] (tf2_flight) StdoutLine: {'line': b'running egg_info\n'}
+[4.289460] (opencv_tools) StdoutLine: {'line': b'writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt\n'}
+[4.289841] (tf2_flight) StdoutLine: {'line': b'creating ../../build/tf2_flight/tf2_flight.egg-info\n'}
+[4.290103] (opencv_tools) StdoutLine: {'line': b'writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt\n'}
+[4.290350] (opencv_tools) StdoutLine: {'line': b'writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt\n'}
+[4.325719] (-) TimerEvent: {}
+[4.350013] (tf2_flight) StdoutLine: {'line': b'writing ../../build/tf2_flight/tf2_flight.egg-info/PKG-INFO\n'}
+[4.351254] (tf2_flight) StdoutLine: {'line': b'writing dependency_links to ../../build/tf2_flight/tf2_flight.egg-info/dependency_links.txt\n'}
+[4.351802] (tf2_flight) StdoutLine: {'line': b'writing entry points to ../../build/tf2_flight/tf2_flight.egg-info/entry_points.txt\n'}
+[4.352191] (tf2_flight) StdoutLine: {'line': b'writing requirements to ../../build/tf2_flight/tf2_flight.egg-info/requires.txt\n'}
+[4.352671] (tf2_flight) StdoutLine: {'line': b'writing top-level names to ../../build/tf2_flight/tf2_flight.egg-info/top_level.txt\n'}
+[4.381080] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.392825] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.394322] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/include;/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/core;/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/dataprocess;/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/filter;/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/logger;/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/networkcom;/home/jetson/Desktop/flight_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/serialcom\n'}
+[4.394540] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.403582] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.404010] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.406094] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.409363] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.411637] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.420507] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.420881] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.422924] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.425780] (-) TimerEvent: {}
+[4.432474] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.453086] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[4.457366] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2\n'}
+[4.483615] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[4.485436] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[4.487531] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1965'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/orbbec_camera/lib:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install:/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1423823037782'), ('DESKTOP_AUTOSTART_ID', '10a42c01cfeed0c636172245218030784000000020920017'), ('JOURNAL_STREAM', '7:52741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/usr/local/nodejs/bin'), ('SESSION_MANAGER', 'local/unbutu:@/tmp/.ICE-unix/2092,unix/unbutu:/tmp/.ICE-unix/2092'), ('INVOCATION_ID', '8248bfbeb3b04a6f97f72a94f4972ec1'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08384ba7_e1a8_4199_a2de_d377bb55cabe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages'), ('BODYPOSE3D_HOME', '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/opt/ros/foxy:/home/jetson/yahboomcar_ws/devel'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[4.526012] (-) TimerEvent: {}
+[4.545559] (opencv_tools) StdoutLine: {'line': b"writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[4.593713] (ldlidar_stl_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ldlidar_stl_ros2_node\x1b[0m\n'}
+[4.612265] (tf2_flight) StdoutLine: {'line': b"writing manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'\n"}
+[4.631155] (-) TimerEvent: {}
+[4.671778] (opencv_tools) StdoutLine: {'line': b"reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[4.673878] (opencv_tools) StdoutLine: {'line': b"writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[4.674491] (opencv_tools) StdoutLine: {'line': b'running build\n'}
+[4.674737] (opencv_tools) StdoutLine: {'line': b'running build_py\n'}
+[4.674974] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/build/opencv_tools/build\n'}
+[4.675217] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib\n'}
+[4.675436] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.675630] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/test.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.676055] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/to_img_mcu.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.677021] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/basic_image_publisher.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.677348] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/rc_imu.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.677941] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/right_QR_scan.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.678240] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/opencv_rosnode_test.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.678778] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/circle_ctr.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.679082] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/down_image_publisher.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.679382] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/down_cam_subscribe.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.679671] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/__init__.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.679947] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/test_shape.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.680231] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/to_mcu.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.680825] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/basic_image_subscriber.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.681100] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/sticker_ctr.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.681707] (opencv_tools) StdoutLine: {'line': b'copying opencv_tools/left_QR_scan.py -> /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools\n'}
+[4.682572] (opencv_tools) StdoutLine: {'line': b'running install\n'}
+[4.695258] (opencv_tools) StdoutLine: {'line': b'running install_lib\n'}
+[4.731327] (-) TimerEvent: {}
+[4.745015] (tf2_flight) StdoutLine: {'line': b"reading manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'\n"}
+[4.747166] (tf2_flight) StdoutLine: {'line': b"writing manifest file '../../build/tf2_flight/tf2_flight.egg-info/SOURCES.txt'\n"}
+[4.747628] (tf2_flight) StdoutLine: {'line': b'running build\n'}
+[4.747824] (tf2_flight) StdoutLine: {'line': b'running build_py\n'}
+[4.748453] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build\n'}
+[4.748758] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib\n'}
+[4.748973] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.749157] (tf2_flight) StdoutLine: {'line': b'copying tf2_flight/test1.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.749509] (tf2_flight) StdoutLine: {'line': b'copying tf2_flight/world_frame_publisher.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.749895] (tf2_flight) StdoutLine: {'line': b'copying tf2_flight/init_pose.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.750539] (tf2_flight) StdoutLine: {'line': b'copying tf2_flight/__init__.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.751005] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.751254] (tf2_flight) StdoutLine: {'line': b'copying tf2_flight/offset_calculator.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.751535] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/test.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.751981] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/to_img_mcu.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.752288] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.752522] (tf2_flight) StdoutLine: {'line': b'copying tf2_flight/tf_listener.py -> /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight\n'}
+[4.752748] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/rc_imu.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.752961] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/right_QR_scan.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.753128] (tf2_flight) StdoutLine: {'line': b'running install\n'}
+[4.753336] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/opencv_rosnode_test.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.753543] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/circle_ctr.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.753759] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/down_image_publisher.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.753954] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/down_cam_subscribe.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.754121] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.754325] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/test_shape.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.754531] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/to_mcu.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.754750] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.754956] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/sticker_ctr.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.755117] (opencv_tools) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/opencv_tools/build/lib/opencv_tools/left_QR_scan.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools\n'}
+[4.756125] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/test.py to test.cpython-38.pyc\n'}
+[4.759134] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/to_img_mcu.py to to_img_mcu.cpython-38.pyc\n'}
+[4.761523] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-38.pyc\n'}
+[4.762752] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/rc_imu.py to rc_imu.cpython-38.pyc\n'}
+[4.763212] (tf2_flight) StdoutLine: {'line': b'running install_lib\n'}
+[4.764373] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/right_QR_scan.py to right_QR_scan.cpython-38.pyc\n'}
+[4.765681] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/opencv_rosnode_test.py to opencv_rosnode_test.cpython-38.pyc\n'}
+[4.767430] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/circle_ctr.py to circle_ctr.cpython-38.pyc\n'}
+[4.768976] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/down_image_publisher.py to down_image_publisher.cpython-38.pyc\n'}
+[4.769999] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/down_cam_subscribe.py to down_cam_subscribe.cpython-38.pyc\n'}
+[4.771328] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/__init__.py to __init__.cpython-38.pyc\n'}
+[4.771907] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/test_shape.py to test_shape.cpython-38.pyc\n'}
+[4.773068] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/to_mcu.py to to_mcu.cpython-38.pyc\n'}
+[4.774656] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-38.pyc\n'}
+[4.775218] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/sticker_ctr.py to sticker_ctr.cpython-38.pyc\n'}
+[4.776639] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/left_QR_scan.py to left_QR_scan.cpython-38.pyc\n'}
+[4.778260] (opencv_tools) StdoutLine: {'line': b'running install_data\n'}
+[4.782983] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index\n'}
+[4.783721] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index/resource_index\n'}
+[4.784143] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index/resource_index/packages\n'}
+[4.784477] (opencv_tools) StdoutLine: {'line': b'copying resource/opencv_tools -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/ament_index/resource_index/packages\n'}
+[4.784794] (opencv_tools) StdoutLine: {'line': b'copying package.xml -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools\n'}
+[4.785245] (opencv_tools) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools/launch\n'}
+[4.785578] (opencv_tools) StdoutLine: {'line': b'copying launch/down_cam.launch.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools/launch\n'}
+[4.785991] (opencv_tools) StdoutLine: {'line': b'copying launch/caminfo.launch.py -> /home/jetson/Desktop/flight_ws/install/opencv_tools/share/opencv_tools/launch\n'}
+[4.786354] (opencv_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.795067] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[4.795544] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[4.800333] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o\x1b[0m\n'}
+[4.805813] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o\x1b[0m\n'}
+[4.810668] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[4.811115] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o\x1b[0m\n'}
+[4.826703] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.827368] (tf2_flight) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/test1.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.827785] (tf2_flight) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/world_frame_publisher.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.828109] (tf2_flight) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/init_pose.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.828401] (tf2_flight) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/__init__.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.828592] (tf2_flight) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/offset_calculator.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.828761] (tf2_flight) StdoutLine: {'line': b'copying /home/jetson/Desktop/flight_ws/build/tf2_flight/build/lib/tf2_flight/tf_listener.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight\n'}
+[4.829857] (tf2_flight) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/test1.py to test1.cpython-38.pyc\n'}
+[4.831477] (-) TimerEvent: {}
+[4.832844] (tf2_flight) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/world_frame_publisher.py to world_frame_publisher.cpython-38.pyc\n'}
+[4.834205] (tf2_flight) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/init_pose.py to init_pose.cpython-38.pyc\n'}
+[4.839273] (tf2_flight) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/__init__.py to __init__.cpython-38.pyc\n'}
+[4.839804] (tf2_flight) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/offset_calculator.py to offset_calculator.cpython-38.pyc\n'}
+[4.840129] (tf2_flight) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight/tf_listener.py to tf_listener.cpython-38.pyc\n'}
+[4.840347] (tf2_flight) StdoutLine: {'line': b'running install_data\n'}
+[4.840522] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index\n'}
+[4.840816] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index\n'}
+[4.840984] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index/packages\n'}
+[4.841833] (tf2_flight) StdoutLine: {'line': b'copying resource/tf2_flight -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/ament_index/resource_index/packages\n'}
+[4.842387] (tf2_flight) StdoutLine: {'line': b'copying package.xml -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight\n'}
+[4.842621] (tf2_flight) StdoutLine: {'line': b'creating /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight/launch\n'}
+[4.842794] (tf2_flight) StdoutLine: {'line': b'copying launch/tf2_flight.launch.py -> /home/jetson/Desktop/flight_ws/install/tf2_flight/share/tf2_flight/launch\n'}
+[4.842944] (tf2_flight) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.864309] (opencv_tools) StdoutLine: {'line': b'Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools-0.0.0-py3.8.egg-info\n'}
+[4.866078] (opencv_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[4.909139] (tf2_flight) StdoutLine: {'line': b'Copying ../../build/tf2_flight/tf2_flight.egg-info to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages/tf2_flight-0.0.0-py3.8.egg-info\n'}
+[4.913390] (tf2_flight) StdoutLine: {'line': b'running install_scripts\n'}
+[4.931654] (-) TimerEvent: {}
+[5.032468] (-) TimerEvent: {}
+[5.034860] (opencv_tools) StdoutLine: {'line': b'Installing circle_ctr script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.035460] (opencv_tools) StdoutLine: {'line': b'Installing down_image_publisher script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.035841] (opencv_tools) StdoutLine: {'line': b'Installing down_image_subscriber script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.036248] (opencv_tools) StdoutLine: {'line': b'Installing img_publisher script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.036657] (opencv_tools) StdoutLine: {'line': b'Installing img_subscriber script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.037047] (opencv_tools) StdoutLine: {'line': b'Installing left_qr_pub script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.037431] (opencv_tools) StdoutLine: {'line': b'Installing right_qr_pub script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.037807] (opencv_tools) StdoutLine: {'line': b'Installing to_img_mcu script to /home/jetson/Desktop/flight_ws/install/opencv_tools/lib/opencv_tools\n'}
+[5.039163] (opencv_tools) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Desktop/flight_ws/build/opencv_tools/install.log'\n"}
+[5.132616] (-) TimerEvent: {}
+[5.140625] (opencv_tools) CommandEnded: {'returncode': 0}
+[5.237118] (-) TimerEvent: {}
+[5.237925] (tf2_flight) StdoutLine: {'line': b'Installing main3 script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight\n'}
+[5.238356] (tf2_flight) StdoutLine: {'line': b'Installing offset_calculator script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight\n'}
+[5.238552] (tf2_flight) StdoutLine: {'line': b'Installing pose_pub script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight\n'}
+[5.238757] (tf2_flight) StdoutLine: {'line': b'Installing tf_listener script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight\n'}
+[5.238921] (tf2_flight) StdoutLine: {'line': b'Installing world_frame_publisher script to /home/jetson/Desktop/flight_ws/install/tf2_flight/lib/tf2_flight\n'}
+[5.239070] (tf2_flight) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Desktop/flight_ws/build/tf2_flight/install.log'\n"}
+[5.253038] (opencv_tools) JobEnded: {'identifier': 'opencv_tools', 'rc': 0}
+[5.337341] (-) TimerEvent: {}
+[5.438175] (-) TimerEvent: {}
+[5.494905] (tf2_flight) CommandEnded: {'returncode': 0}
+[5.525177] (tf2_flight) JobEnded: {'identifier': 'tf2_flight', 'rc': 0}
+[5.538436] (-) TimerEvent: {}
+[5.639205] (-) TimerEvent: {}
+[5.770848] (-) TimerEvent: {}
+[5.871644] (-) TimerEvent: {}
+[5.972502] (-) TimerEvent: {}
+[6.032355] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o\x1b[0m\n'}
+[6.072688] (-) TimerEvent: {}
+[6.173736] (-) TimerEvent: {}
+[6.274543] (-) TimerEvent: {}
+[6.375622] (-) TimerEvent: {}
+[6.476405] (-) TimerEvent: {}
+[6.577535] (-) TimerEvent: {}
+[6.679579] (-) TimerEvent: {}
+[6.780705] (-) TimerEvent: {}
+[6.881733] (-) TimerEvent: {}
+[6.982533] (-) TimerEvent: {}
+[7.083335] (-) TimerEvent: {}
+[7.184034] (-) TimerEvent: {}
+[7.284764] (-) TimerEvent: {}
+[7.385487] (-) TimerEvent: {}
+[7.486197] (-) TimerEvent: {}
+[7.586911] (-) TimerEvent: {}
+[7.687626] (-) TimerEvent: {}
+[7.788348] (-) TimerEvent: {}
+[7.889030] (-) TimerEvent: {}
+[7.989926] (-) TimerEvent: {}
+[8.091176] (-) TimerEvent: {}
+[8.191995] (-) TimerEvent: {}
+[8.292729] (-) TimerEvent: {}
+[8.393610] (-) TimerEvent: {}
+[8.494479] (-) TimerEvent: {}
+[8.595358] (-) TimerEvent: {}
+[8.696138] (-) TimerEvent: {}
+[8.796863] (-) TimerEvent: {}
+[8.897636] (-) TimerEvent: {}
+[8.999002] (-) TimerEvent: {}
+[9.099861] (-) TimerEvent: {}
+[9.200708] (-) TimerEvent: {}
+[9.301570] (-) TimerEvent: {}
+[9.402443] (-) TimerEvent: {}
+[9.503455] (-) TimerEvent: {}
+[9.604870] (-) TimerEvent: {}
+[9.705732] (-) TimerEvent: {}
+[9.806637] (-) TimerEvent: {}
+[9.907563] (-) TimerEvent: {}
+[10.008437] (-) TimerEvent: {}
+[10.109372] (-) TimerEvent: {}
+[10.210293] (-) TimerEvent: {}
+[10.312955] (-) TimerEvent: {}
+[10.414260] (-) TimerEvent: {}
+[10.516162] (-) TimerEvent: {}
+[10.617019] (-) TimerEvent: {}
+[10.717917] (-) TimerEvent: {}
+[10.818805] (-) TimerEvent: {}
+[10.919725] (-) TimerEvent: {}
+[11.020606] (-) TimerEvent: {}
+[11.122058] (-) TimerEvent: {}
+[11.222793] (-) TimerEvent: {}
+[11.323510] (-) TimerEvent: {}
+[11.424263] (-) TimerEvent: {}
+[11.525260] (-) TimerEvent: {}
+[11.626201] (-) TimerEvent: {}
+[11.727240] (-) TimerEvent: {}
+[11.828426] (-) TimerEvent: {}
+[11.929696] (-) TimerEvent: {}
+[12.030476] (-) TimerEvent: {}
+[12.131261] (-) TimerEvent: {}
+[12.232006] (-) TimerEvent: {}
+[12.332813] (-) TimerEvent: {}
+[12.433735] (-) TimerEvent: {}
+[12.534553] (-) TimerEvent: {}
+[12.635754] (-) TimerEvent: {}
+[12.736494] (-) TimerEvent: {}
+[12.837410] (-) TimerEvent: {}
+[12.938725] (-) TimerEvent: {}
+[13.039749] (-) TimerEvent: {}
+[13.140672] (-) TimerEvent: {}
+[13.241511] (-) TimerEvent: {}
+[13.342397] (-) TimerEvent: {}
+[13.443340] (-) TimerEvent: {}
+[13.544217] (-) TimerEvent: {}
+[13.571955] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_stl_ros2_node\x1b[0m\n'}
+[13.644437] (-) TimerEvent: {}
+[13.745390] (-) TimerEvent: {}
+[13.846203] (-) TimerEvent: {}
+[13.947004] (-) TimerEvent: {}
+[14.011044] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_stl_ros2_node\n'}
+[14.042985] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[14.049200] (-) TimerEvent: {}
+[14.126685] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'install'}
+[14.150042] (-) TimerEvent: {}
+[14.151763] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2'], 'cwd': '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1965'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/orbbec_camera/lib:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install:/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1423823037782'), ('DESKTOP_AUTOSTART_ID', '10a42c01cfeed0c636172245218030784000000020920017'), ('JOURNAL_STREAM', '7:52741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/usr/local/nodejs/bin'), ('SESSION_MANAGER', 'local/unbutu:@/tmp/.ICE-unix/2092,unix/unbutu:/tmp/.ICE-unix/2092'), ('INVOCATION_ID', '8248bfbeb3b04a6f97f72a94f4972ec1'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08384ba7_e1a8_4199_a2de_d377bb55cabe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/flight_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/flight_ws/install/tf2_flight/lib/python3.8/site-packages:/home/jetson/Desktop/flight_ws/install/opencv_tools/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/yahboomcar_ws/devel/lib/python3/dist-packages'), ('BODYPOSE3D_HOME', '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2:/home/jetson/Desktop/flight_ws/install/anolink:/home/jetson/ros2_ws/install/orbbec_description:/home/jetson/ros2_ws/install/orbbec_camera:/home/jetson/ros2_ws/install/orbbec_camera_msgs:/home/jetson/Desktop/flight_ws/install/tf2_flight:/home/jetson/Desktop/flight_ws/install/opencv_tools:/opt/ros/foxy:/home/jetson/yahboomcar_ws/devel'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[14.186526] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.187331] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node\n'}
+[14.190139] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node" to ""\n'}
+[14.190591] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch\n'}
+[14.190890] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py\n'}
+[14.191202] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py\n'}
+[14.191555] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py\n'}
+[14.191930] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py\n'}
+[14.192204] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py\n'}
+[14.192526] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py\n'}
+[14.192801] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2\n'}
+[14.193020] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz\n'}
+[14.193579] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2\n'}
+[14.194084] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2\n'}
+[14.194544] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh\n'}
+[14.195015] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv\n'}
+[14.195443] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh\n'}
+[14.195805] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv\n'}
+[14.196211] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash\n'}
+[14.196613] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh\n'}
+[14.196973] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh\n'}
+[14.197368] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv\n'}
+[14.197724] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv\n'}
+[14.198212] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2\n'}
+[14.198564] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake\n'}
+[14.199195] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake\n'}
+[14.199543] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/flight_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml\n'}
+[14.204281] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[14.250251] (-) TimerEvent: {}
+[14.316937] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[14.320539] (-) EventReactorShutdown: {}
